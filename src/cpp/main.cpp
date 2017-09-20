@@ -50,7 +50,7 @@ void jacobi_method ( double ** A, double ** R, int n ){
             }
         }
     }
-
+// se her
     int k, l;
     double epsilon = 1.0e-8;
     double max_number_terations = (double) n * (double) n * (double) n;
