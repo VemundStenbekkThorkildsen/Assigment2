@@ -12,6 +12,7 @@ n: dimention of matrices
 #include <iostream>
 #include <cmath>
 #include <vector>
+#include <math.h>
 #include "jacobi.h"
 
 void jacobi_method ( double ** A, vector<vector<int>>& R, int n ){
@@ -21,13 +22,14 @@ void jacobi_method ( double ** A, vector<vector<int>>& R, int n ){
 
     int k, l;
     double epsilon = 1.0e-8;
-    double max_number_terations = (double) n * (double) n * (double) n;
-    int iterations = 0;
+    double max_terations = pow((double) n, 3.0);
+
+    double iterations = 0.0;
     double max_offdiag = maxoffdiag ( A, &k, &l, n );
-    while ( fabs(max_offdiag) > epsilon && (double) iterations < max_number_iterations ) {
+    while ( fabs(max_offdiag) > epsilon && iterations < max_iterations ) {
         max:offdiag = maxoffdiag ( A, &k, &l, n );
         rotate ( A, R, k, l, n );
-        iterations++;
+        iterations += 1.0;
     }
     std::cout << "Number of iterations: " << iterations << "\n";
     return;
