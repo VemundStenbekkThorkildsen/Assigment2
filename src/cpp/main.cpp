@@ -3,9 +3,10 @@
 #include <vector>
 #include "jacobi.h"
 
-int main(){
-    vector<vector<int> > R;
-    int n;
 
-    R = vector<vector<int> >(n, vector<int>(n,0));
+
+int main(){
+    int n;
+    double ** R;
+
 }
