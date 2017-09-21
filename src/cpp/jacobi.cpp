@@ -1,33 +1,28 @@
-/*
-Jacobi's method for finding eigenvalues
-eigenvectors of the symetric matrix A.
-The eigenvalues of A will be on the diagonal
-of A, with eigenvalue i being A[i][i].
-The j-th component of the i-th eigenvector
-is stored in R[i][j].
-A: input matrix (n x n)
-R: empty matrix for eigenvectors (n x n)
-n: dimention of matrices
-*/
 #include <iostream>
 #include <cmath>
-#include <vector>
 #include <math.h>
-#include "jacobi.h"
+#include "jacobi.h" 
 
-void jacobi_method ( double ** A, vector<vector<int>>& R, int n ){
+
+void jacobi_method ( double ** A, double ** R, int n ){
 // Setting up the eigenvector matrix
-    for(unsigned int i = 0; i < n; i++)
-        R[i][i] = 1.0;
-
+    for ( int i = 0; i < n; i++ ) {
+        for ( int j = 0; j < n; j++ ) {
+            if ( i == j ) {
+                R[i][j] = 1.0;
+            } else {
+                R[i][j] = 0.0;
+            }
+        }
+    }
     int k, l;
     double epsilon = 1.0e-8;
-    double max_terations = pow((double) n, 3.0);
+    double max_iterations = (double) n * (double) n * (double) n;
 
     double iterations = 0.0;
     double max_offdiag = maxoffdiag ( A, &k, &l, n );
     while ( fabs(max_offdiag) > epsilon && iterations < max_iterations ) {
-        max:offdiag = maxoffdiag ( A, &k, &l, n );
+        max_offdiag = maxoffdiag ( A, &k, &l, n );
         rotate ( A, R, k, l, n );
         iterations += 1.0;
     }
@@ -58,16 +53,16 @@ void rotate ( double ** A, double ** R, int k, int l, int n ){
     if ( A[k][l] != 0.0 ) {
         double t, tau;
         tau = (A[l][l] - A[k][k])/(2*A[k][l]);
-    if ( tau > 0 ) {
-        t = 1.0/(tau + sqrt(1.0 + tau*tau);
+        if ( tau > 0 ) {
+            t = 1.0/(tau + sqrt(1.0 + tau*tau);
+        } else {
+            t = -1.0/( -tau + sqrt(1.0 + tau*tau);
+        }
+        c = 1/sqrt(1+t*t);
+        s = c*t;
     } else {
-        t = -1.0/( -tau + sqrt(1.0 + tau*tau);
-    }
-    c = 1/sqrt(1+t*t);
-    s = c*t;
-    } else {
-    c = 1.0;
-    s = 0.0;
+        c = 1.0;
+        s = 0.0;
     }
 
 
