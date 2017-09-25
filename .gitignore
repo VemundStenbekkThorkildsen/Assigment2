@@ -2,3 +2,5 @@
 *.user*
 *user
 *.user
+src/cpp/cpp.pro.user
+*.user
