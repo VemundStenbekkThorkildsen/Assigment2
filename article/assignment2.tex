@@ -59,6 +59,32 @@ The problem we will deal with in this project is of quantum mechanical nature. A
 \begin{center}
 {\LARGE\bf Method}
 \end{center} 
+To create our eigenvalue solver we first have to take a look at the matrix at hand, to get an understanding of the problem.
+
+$$
+  -\frac{d^2}{d\rho^2} u(\rho) + \rho^2u(\rho)  = \lambda u(\rho) .
+$$
+
+\noindent This equation will be solved numerically, and has given eigenvalues $\lambda_0=3$, $\lambda_1=7$ and $\lambda_2=11$. We can use the expression for the second derivative to rewrite this. This expression is in our case given by:
+
+$$
+ u''=\frac{u(\rho+h) -2u(\rho) +u(\rho-h)}{h^2} +O(h^2)
+$$ 
+\noindent
+The last part of this expression, namely $O(h^2$, is the truncation error and will not be used further. Bu using the first part, our expression now looks like this:
+
+$$
+\frac{-u(\rho_i+h) +2u(\rho_i) -u(\rho_i-h)}{h^2}+\rho_i^2u(\rho_i)  = \lambda u(\rho_i)
+$$ 
+
+$$
+-\frac{u_{i+1} -2u_i +u_{i-1}}{h^2}+\rho_i^2u_i= \lambda u_i
+$$
+
+\noindent Our $h$ is given by $h=\frac{\rho_n - \rho_0}{n}$, as we want our $\rho_i$ to vary with step length $h$. By using this $h$, $\rho_i$ will take the form: $\rho_i = \rho_o + ih$. The oscillator potential is given by $(\rho_i)^2$ and will be denoted as $V_i$ in the rest of this article. Now we have everything we need to rearrange this problem as a a matrix eigenvalue problem. 
+\\
+From our expression it is easy to see that the matrix we are looking for takes the negative of 
+
 \newpage
 
 \begin{center}

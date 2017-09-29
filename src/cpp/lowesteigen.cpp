@@ -4,7 +4,7 @@
 using namespace std;
 using namespace arma;
 
-void lowesteigen(mat A, int n, double romax){
+void lowesteigen(mat A, mat R, int n, double romax){
 
     double lowest;
     double secondlowest;
@@ -15,6 +15,7 @@ void lowesteigen(mat A, int n, double romax){
     }
     int minindex;
     int sminindex;
+    int tminindex;
     lowest = diagonal.min();
     minindex = diagonal.index_min();
     diagonal(minindex) = diagonal.max();
@@ -22,25 +23,19 @@ void lowesteigen(mat A, int n, double romax){
     sminindex = diagonal.index_min();
     diagonal(sminindex) = diagonal.max();
     thirdlowest = diagonal.min();
+    tminindex = diagonal.index_min();
 
-    if (romax == 100){
-        string outFileName = "diagonal_A_" + to_string(n) + ".txt";
+        vec lowestvec(n);
+        vec secondlowestvec(n);
+        vec thirdlowestvec(n);
+        lowestvec = R.col(minindex);
+        secondlowestvec = R.col(sminindex);
+        thirdlowestvec = R.col(tminindex);
+
+    string outFileName = "diagonal_A_" + to_string(n) + "_" + to_string(romax) + ".txt";
         ofstream outFile(outFileName);
         outFile << lowest << ", " << secondlowest << ", "<< thirdlowest << ", ";
         outFile.close();
-    }
-    if (romax == 10){
-        string outFileName2 = "diagonal_A_romax10_" + to_string(n) + ".txt";
-        ofstream outFile2(outFileName2);
-        outFile2 << lowest << ", " << secondlowest << ", "<< thirdlowest << ", ";
-        outFile2.close();
-    }
-    if (romax == 50){
-        string outFileName3 = "diagonal_A_romax50_" + to_string(n) + ".txt";
-        ofstream outFile3(outFileName3);
-        outFile3 << lowest << ", " << secondlowest << ", "<< thirdlowest << ", ";
-        outFile3.close();
-    }
 }
 
 

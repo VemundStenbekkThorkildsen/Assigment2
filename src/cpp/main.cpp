@@ -7,11 +7,11 @@ using namespace arma;
 
 int main()
 {
-    int n = 10;
+    int n=400;
     mat A = zeros(n,n);
     mat R = zeros(n,n);
     double ro0 = 0;
-    double romax = 5;
+    int romax = 1.0;
     double h = (romax-ro0)/(n);
     int k,l;
     vec V(n);
@@ -32,7 +32,7 @@ int main()
     maxoffdiag( A,  k,  l,  n);
     rotate( A,  R,  k, l, n);
     jac( A,  R,  n, k, l);
-    lowesteigen(A, n, romax);
+    lowesteigen(A, R, n, romax);
     return 0;
 }
 
