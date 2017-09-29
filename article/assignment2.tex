@@ -78,13 +78,49 @@ $$
 $$ 
 
 $$
--\frac{u_{i+1} -2u_i +u_{i-1}}{h^2}+\rho_i^2u_i= \lambda u_i
+\frac{-u_{i+1} +2u_i -u_{i-1}}{h^2}+\rho_i^2u_i= \lambda u_i
 $$
 
-\noindent Our $h$ is given by $h=\frac{\rho_n - \rho_0}{n}$, as we want our $\rho_i$ to vary with step length $h$. By using this $h$, $\rho_i$ will take the form: $\rho_i = \rho_o + ih$. The oscillator potential is given by $(\rho_i)^2$ and will be denoted as $V_i$ in the rest of this article. Now we have everything we need to rearrange this problem as a a matrix eigenvalue problem. 
+\noindent Our $h$ is given by $h=\frac{\rho_n - \rho_0}{n}$, as we want our $\rho_i$ to vary with step length $h$. By using this $h$, $\rho_i$ will take the form: $\rho_i = \rho_o + ih$. The oscillator potential is given by $(\rho_i)^2$ and will be denoted as $V_i$ in the rest of this article. Now we have everything we need to rearrange this problem as a a matrix eigenvalue problem. \\
 \\
-From our expression it is easy to see that the matrix we are looking for takes the negative of 
+From our expression it is easy to see that the matrix we are looking for takes the negative of element $i+1$ and $i-1$, divided by the step length squared. It also need to take two times the positive of element $i$ divided by $h^2$ plus element $i$ multiplied by the oscillator potential $V_i$. This means that we are once again faced by a problem that involves a tridiagonal matrix. 
 
+\begin{center}
+Main diagonal = $\frac{2}{h^2} + V_i$, first diagonal above and below = $-\frac{1}{h^2}$
+\end{center}
+
+On matrix form this looks like:
+
+\begin{center}
+
+
+$
+ \begin{bmatrix} 
+ \frac{2}{h^2}+V_1 & -\frac{1}{h^2} & 0   & 0    & \dots  &0     & 0 \\
+ -\frac{1}{h^2} & \frac{2}{h^2}+V_2 & -\frac{1}{h^2} & 0    & \dots  &0     &0 \\
+  0   & -\frac{1}{h^2} & \frac{2}{h^2}+V_3 & -\frac{1}{h^2}  &0       &\dots & 0\\
+  \dots  & \dots & \dots & \dots  &\dots      &\dots & \dots\\
+  0   & \dots & \dots & \dots  &\dots  &\dots & \dots\\
+ 0   & \dots & \dots & \dots  &\dots       & \dots & \frac{2}{h^2}+V_{N-1}
+             \end{bmatrix} 
+             \begin{bmatrix}
+             u_0\\
+             u_1\\
+             u_2\\
+             \dots\\
+             \dots\\
+             u_n\\
+             \end{bmatrix} =\lambda
+             \begin{bmatrix}
+              u_0\\
+             u_1\\
+             u_2\\
+             \dots\\
+             \dots\\
+             u_n\\
+             \end{bmatrix}
+$
+\end{center}
 \newpage
 
 \begin{center}
