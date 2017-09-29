@@ -23,6 +23,10 @@ double max_offdiag = maxoffdiag ( A, k, l, n );
     }
 cout << "Number of iterations: " << iterations << "\n";
 
+string outFileName = "iterations_" + to_string(n) + ".txt";
+ofstream outFile(outFileName);
+outFile << iterations << ", " << n << ", ";
+outFile.close();
 
 
 return max_offdiag;

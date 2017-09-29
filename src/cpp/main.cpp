@@ -7,7 +7,8 @@ using namespace arma;
 
 int main()
 {
-    int n=360;
+    for(int o=40;0<=400;o+=40){
+    int n=o;
     mat A = zeros(n,n);
     mat R = zeros(n,n);
     double ro0 = 0;
@@ -32,7 +33,8 @@ int main()
     maxoffdiag( A,  k,  l,  n);
     rotate( A,  R,  k, l, n);
     jac( A,  R,  n, k, l);
-   // lowesteigen(A, R, n, romax);
+    lowesteigen(A, R, n, romax);
+    }
     return 0;
 }
 

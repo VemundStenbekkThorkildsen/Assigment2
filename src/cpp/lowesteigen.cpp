@@ -32,10 +32,15 @@ void lowesteigen(mat A, mat R, int n, double romax){
         secondlowestvec = R.col(sminindex);
         thirdlowestvec = R.col(tminindex);
 
-    string outFileName = "diagonal_A_" + to_string(n) + "_" + to_string(romax) + ".txt";
+        string outFileName2 = "eigenvector_" + to_string(n) + "_" + to_string(romax) + ".txt";
+            ofstream outFile2(outFileName2);
+            outFile2 << lowestvec << ", " << secondlowestvec << ", "<< thirdlowestvec << ", ";
+            outFile2.close();
+
+   /* string outFileName = "diagonal_A_" + to_string(n) + "_" + to_string(romax) + ".txt";
         ofstream outFile(outFileName);
         outFile << lowest << ", " << secondlowest << ", "<< thirdlowest << ", ";
-        outFile.close();
+        outFile.close(); */
 }
 
 
