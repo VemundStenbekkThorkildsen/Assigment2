@@ -1,0 +1,13 @@
+
+
+lambda=load('eigenvector_360_10.000000.txt');
+rho=linspace(0,10,360);
+lowestlambda=(lambda(1:360)).';
+middlelambda=lambda(361:720).';
+highestlambda=lambda(721:1080).';
+
+hold on
+plot(rho, lowestlambda)
+plot(rho, middlelambda)
+plot(rho, highestlambda)
+
