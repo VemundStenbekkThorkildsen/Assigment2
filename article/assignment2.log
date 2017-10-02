@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.21)  2 OCT 2017 23:53
+=======
+<<<<<<< HEAD
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.2)  2 OCT 2017 20:40
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.21)  2 OCT 2017 23:19
+>>>>>>> b31023e4daf760695a054bf237055ff29577e995
+>>>>>>> 3cce90f50217df38d308c49b44e2a1b555386aef
 entering extended mode
 **./assignment2.tex
 (assignment2.tex
@@ -693,62 +701,170 @@ Underfull \hbox (badness 10000) in paragraph at lines 151--155
 [5] [6] <rho1.jpg, id=41, 562.1pt x 421.575pt>
 File: rho1.jpg Graphic file (type jpg)
  <use rho1.jpg>
+<<<<<<< HEAD
 Package pdftex.def Info: rho1.jpg used on input line 182.
 (pdftex.def)             Requested size: 365.36067pt x 274.0205pt.
 
 Overfull \hbox (20.36067pt too wide) in paragraph at lines 182--183
+=======
+<<<<<<< HEAD
+Package pdftex.def Info: rho1.jpg used on input line 183.
+(pdftex.def)             Requested size: 365.36067pt x 274.0205pt.
+
+Overfull \hbox (20.36067pt too wide) in paragraph at lines 183--184
+=======
+Package pdftex.def Info: rho1.jpg used on input line 180.
+(pdftex.def)             Requested size: 365.36067pt x 274.0205pt.
+
+Overfull \hbox (20.36067pt too wide) in paragraph at lines 180--181
+>>>>>>> b31023e4daf760695a054bf237055ff29577e995
+>>>>>>> 3cce90f50217df38d308c49b44e2a1b555386aef
  [] 
  []
 
 <rho3.jpg, id=42, 562.1pt x 421.575pt>
 File: rho3.jpg Graphic file (type jpg)
  <use rho3.jpg>
+<<<<<<< HEAD
 Package pdftex.def Info: rho3.jpg used on input line 188.
+=======
+<<<<<<< HEAD
+Package pdftex.def Info: rho3.jpg used on input line 189.
+=======
+Package pdftex.def Info: rho3.jpg used on input line 186.
+>>>>>>> b31023e4daf760695a054bf237055ff29577e995
+>>>>>>> 3cce90f50217df38d308c49b44e2a1b555386aef
 (pdftex.def)             Requested size: 309.15596pt x 231.86696pt.
  [7 <./rho1.jpg>]
 <rho5.jpg, id=48, 562.1pt x 421.575pt>
 File: rho5.jpg Graphic file (type jpg)
  <use rho5.jpg>
+<<<<<<< HEAD
 Package pdftex.def Info: rho5.jpg used on input line 193.
+=======
+<<<<<<< HEAD
+Package pdftex.def Info: rho5.jpg used on input line 194.
+=======
+Package pdftex.def Info: rho5.jpg used on input line 191.
+>>>>>>> b31023e4daf760695a054bf237055ff29577e995
+>>>>>>> 3cce90f50217df38d308c49b44e2a1b555386aef
 (pdftex.def)             Requested size: 309.15596pt x 231.86696pt.
 
 <rho10.jpg, id=49, 562.1pt x 421.575pt>
 File: rho10.jpg Graphic file (type jpg)
  <use rho10.jpg>
+<<<<<<< HEAD
 Package pdftex.def Info: rho10.jpg used on input line 196.
+=======
+<<<<<<< HEAD
+Package pdftex.def Info: rho10.jpg used on input line 197.
+=======
+Package pdftex.def Info: rho10.jpg used on input line 194.
+>>>>>>> b31023e4daf760695a054bf237055ff29577e995
+>>>>>>> 3cce90f50217df38d308c49b44e2a1b555386aef
 (pdftex.def)             Requested size: 337.2626pt x 252.94695pt.
  [8 <./rho3.jpg> <./rho5.jpg>] [9 <./rho10.jpg>] <eig400rho3.jpg, id=58, 562.1p
 t x 421.575pt>
 File: eig400rho3.jpg Graphic file (type jpg)
 
 <use eig400rho3.jpg>
+<<<<<<< HEAD
 Package pdftex.def Info: eig400rho3.jpg used on input line 203.
+=======
+<<<<<<< HEAD
+Package pdftex.def Info: eig400rho3.jpg used on input line 204.
+=======
+Package pdftex.def Info: eig400rho3.jpg used on input line 201.
+>>>>>>> b31023e4daf760695a054bf237055ff29577e995
+>>>>>>> 3cce90f50217df38d308c49b44e2a1b555386aef
 (pdftex.def)             Requested size: 309.15596pt x 231.86696pt.
  <eig400rho5.jpg, id=59, 562.1pt x 421.575pt>
 File: eig400rho5.jpg Graphic file (type jpg)
 
 <use eig400rho5.jpg>
+<<<<<<< HEAD
 Package pdftex.def Info: eig400rho5.jpg used on input line 205.
+=======
+<<<<<<< HEAD
+Package pdftex.def Info: eig400rho5.jpg used on input line 206.
+=======
+Package pdftex.def Info: eig400rho5.jpg used on input line 203.
+>>>>>>> b31023e4daf760695a054bf237055ff29577e995
+>>>>>>> 3cce90f50217df38d308c49b44e2a1b555386aef
 (pdftex.def)             Requested size: 309.15596pt x 231.86696pt.
  <eig360Rho10.jpg, id=60, 562.1pt x 421.575pt>
 File: eig360Rho10.jpg Graphic file (type jpg)
 
 <use eig360Rho10.jpg>
+<<<<<<< HEAD
 Package pdftex.def Info: eig360Rho10.jpg used on input line 208.
 (pdftex.def)             Requested size: 309.15596pt x 231.86696pt.
  [10 <./eig400rho3.jpg> <./eig400rho5.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 212--213
+=======
+<<<<<<< HEAD
+Package pdftex.def Info: eig360Rho10.jpg used on input line 209.
+(pdftex.def)             Requested size: 309.15596pt x 231.86696pt.
+ [10 <./eig400rho3.jpg> <./eig400rho5.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 213--214
+=======
+Package pdftex.def Info: eig360Rho10.jpg used on input line 206.
+(pdftex.def)             Requested size: 309.15596pt x 231.86696pt.
+ [10 <./eig400rho3.jpg> <./eig400rho5.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 210--211
+>>>>>>> b31023e4daf760695a054bf237055ff29577e995
+>>>>>>> 3cce90f50217df38d308c49b44e2a1b555386aef
 
  []
 
 <itvsmatsize.jpg, id=65, 562.1pt x 421.575pt>
 File: itvsmatsize.jpg Graphic file (type jpg)
  <use itvsmatsize.jpg>
+<<<<<<< HEAD
 Package pdftex.def Info: itvsmatsize.jpg used on input line 216.
+=======
+<<<<<<< HEAD
+Package pdftex.def Info: itvsmatsize.jpg used on input line 217.
+(pdftex.def)             Requested size: 337.2626pt x 252.94695pt.
+ [11 <./eig360Rho10.jpg>] <eigomg001.jpg, id=70, 754.82pt x 618.31pt>
+File: eigomg001.jpg Graphic file (type jpg)
+ <use eigomg001.jpg>
+Package pdftex.def Info: eigomg001.jpg used on input line 223.
+(pdftex.def)             Requested size: 377.40909pt x 309.15424pt.
+
+<eigomg05.jpg, id=71, 707.64375pt x 538.01pt>
+File: eigomg05.jpg Graphic file (type jpg)
+ <use eigomg05.jpg>
+Package pdftex.def Info: eigomg05.jpg used on input line 224.
+(pdftex.def)             Requested size: 353.82101pt x 269.00433pt.
+
+<eigomg1.jpg, id=72, 734.745pt x 521.95pt>
+File: eigomg1.jpg Graphic file (type jpg)
+ <use eigomg1.jpg>
+Package pdftex.def Info: eigomg1.jpg used on input line 225.
+(pdftex.def)             Requested size: 367.3716pt x 260.97435pt.
+
+<eigomg5.jpg, id=73, 562.1pt x 421.575pt>
+File: eigomg5.jpg Graphic file (type jpg)
+ <use eigomg5.jpg>
+Package pdftex.def Info: eigomg5.jpg used on input line 226.
+(pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
+
+Overfull \hbox (32.40909pt too wide) in paragraph at lines 223--227
+ [] 
+ []
+
+
+Overfull \hbox (8.82101pt too wide) in paragraph at lines 223--227
+ [] 
+=======
+Package pdftex.def Info: itvsmatsize.jpg used on input line 214.
+>>>>>>> 3cce90f50217df38d308c49b44e2a1b555386aef
 (pdftex.def)             Requested size: 337.2626pt x 252.94695pt.
  [11 <./eig360Rho10.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 220--221
 
+>>>>>>> b31023e4daf760695a054bf237055ff29577e995
  []
 
 <eigomg0011.jpg, id=70, 562.1pt x 421.575pt>
@@ -757,6 +873,17 @@ File: eigomg0011.jpg Graphic file (type jpg)
 Package pdftex.def Info: eigomg0011.jpg used on input line 225.
 (pdftex.def)             Requested size: 337.2626pt x 252.94695pt.
 
+<<<<<<< HEAD
+Overfull \hbox (22.3716pt too wide) in paragraph at lines 223--227
+ [] 
+ []
+
+[12 <./itvsmatsize.jpg>] [13 <./eigomg001.jpg> <./eigomg05.jpg>] [14 <./eigomg1
+.jpg> <./eigomg5.jpg>] [15] [16]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 246.
+ [17]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 246.
+=======
 <eigomg055.jpg, id=71, 562.1pt x 421.575pt>
 File: eigomg055.jpg Graphic file (type jpg)
  <use eigomg055.jpg>
@@ -788,7 +915,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 243--244
 [15] [16]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 259.
  [17]
+<<<<<<< HEAD
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 259.
+=======
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 257.
+>>>>>>> b31023e4daf760695a054bf237055ff29577e995
+>>>>>>> 3cce90f50217df38d308c49b44e2a1b555386aef
  (assignment2.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 259.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 259.
@@ -814,7 +946,15 @@ msfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pf
 b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+<<<<<<< HEAD
 Output written on assignment2.pdf (17 pages, 533853 bytes).
+=======
+<<<<<<< HEAD
+Output written on assignment2.pdf (17 pages, 577098 bytes).
+=======
+Output written on assignment2.pdf (17 pages, 532748 bytes).
+>>>>>>> b31023e4daf760695a054bf237055ff29577e995
+>>>>>>> 3cce90f50217df38d308c49b44e2a1b555386aef
 PDF statistics:
  139 PDF objects out of 1000 (max. 8388607)
  18 named destinations out of 1000 (max. 500000)
