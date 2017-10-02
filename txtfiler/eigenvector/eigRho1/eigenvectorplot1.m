@@ -13,9 +13,9 @@ plot(rho, lam1)
 plot(rho, lam2)
 plot(rho, lam3)
 title( 'Probability distribution plotted against \rho for n=400 and \rho max =1')
-xlabel ('rho')
+xlabel ('\rho')
 ylabel ( '\psi^2');
-legend('lam1','lam2','lam3')
+legend('\lambda_1','\lambda_2','\lambda_3')
 
 lambda=load('Eigenvector_40_1.000000.txt');
 rho=linspace(0,1,40);
@@ -32,6 +32,6 @@ plot(rho, lam1)
 plot(rho, lam2)
 plot(rho, lam3)
 title( 'Probability distribution plotted against \rho for n=40 and \rho max=1')
-xlabel ('rho')
+xlabel ('\rho')
 ylabel ( '\psi^2');
-legend('lam1','lam2','lam3')
+legend('\lambda_1','\lambda_2','\lambda_3')
