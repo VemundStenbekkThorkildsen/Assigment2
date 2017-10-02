@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.21)  2 OCT 2017 16:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.2)  2 OCT 2017 16:20
 entering extended mode
 **./assignment2.tex
 (assignment2.tex
@@ -439,7 +439,7 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen112
 \Gin@req@width=\dimen113
 )
-(C:\Users\vemun\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.sty
+(C:\Users\sande\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.sty
 \lst@mode=\count100
 \lst@gtempboxa=\box28
 \lst@token=\toks22
@@ -453,22 +453,19 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 \lst@lineno=\count105
 \lst@maxwidth=\dimen117
 
-(C:\Users\vemun\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty
+(C:\Users\sande\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 \c@lstnumber=\count106
 \lst@skipnumbers=\count107
 \lst@framebox=\box29
 )
-(C:\Users\vemun\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.cfg
+(C:\Users\sande\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.cfg
 File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
-(C:\Users\vemun\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstlang1.sty
+(C:\Users\sande\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
-)
-(C:\Users\vemun\AppData\Roaming\MiKTeX\2.9\tex\latex\setspace\setspace.sty
-Package: setspace 2011/12/19 v6.7a set line spacing
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\bm.sty"
 Package: bm 2017/01/16 v1.2c Bold Symbol Support (DPC/FMi)
@@ -557,7 +554,7 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4751.
 \c@Hy@tempcnt=\count111
 
-(C:\Users\vemun\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
+(C:\Users\sande\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -612,20 +609,7 @@ LaTeX Font Info:    ... okay on input line 39.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 39.
 LaTeX Font Info:    ... okay on input line 39.
 
-(C:\Users\vemun\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count118
-\scratchdimen=\dimen122
-\scratchbox=\box30
-\nofMPsegments=\count119
-\nofMParguments=\count120
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count121
-\MPscratchDim=\dimen123
-\MPnumerator=\count122
-\makeMPintoPDFobject=\count123
-\everyMPtoPDFconversion=\toks24
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
@@ -638,8 +622,8 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-\c@lstlisting=\count124
-\AtBeginShipoutBox=\box31
+\c@lstlisting=\count118
+\AtBeginShipoutBox=\box30
 Package hyperref Info: Link coloring OFF on input line 39.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
@@ -648,7 +632,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count125
+\c@section@level=\count119
 )
 LaTeX Info: Redefining \ref on input line 39.
 LaTeX Info: Redefining \pageref on input line 39.
@@ -682,7 +666,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--87
 
  []
 
-[3] [4] <rho1.jpg, id=31, 562.1pt x 421.575pt>
+[3] <rho1.jpg, id=27, 562.1pt x 421.575pt>
 File: rho1.jpg Graphic file (type jpg)
  <use rho1.jpg>
 Package pdftex.def Info: rho1.jpg used on input line 138.
@@ -692,32 +676,32 @@ Overfull \hbox (20.36067pt too wide) in paragraph at lines 138--139
  [] 
  []
 
-<rho3.jpg, id=32, 562.1pt x 421.575pt>
+<rho3.jpg, id=28, 562.1pt x 421.575pt>
 File: rho3.jpg Graphic file (type jpg)
  <use rho3.jpg>
 Package pdftex.def Info: rho3.jpg used on input line 144.
 (pdftex.def)             Requested size: 309.15596pt x 231.86696pt.
- [5 <./rho1.jpg>]
-<rho5.jpg, id=37, 562.1pt x 421.575pt>
+ [4 <./rho1.jpg>]
+<rho5.jpg, id=33, 562.1pt x 421.575pt>
 File: rho5.jpg Graphic file (type jpg)
  <use rho5.jpg>
 Package pdftex.def Info: rho5.jpg used on input line 149.
 (pdftex.def)             Requested size: 309.15596pt x 231.86696pt.
 
-<rho10.jpg, id=38, 562.1pt x 421.575pt>
+<rho10.jpg, id=34, 562.1pt x 421.575pt>
 File: rho10.jpg Graphic file (type jpg)
  <use rho10.jpg>
 Package pdftex.def Info: rho10.jpg used on input line 152.
 (pdftex.def)             Requested size: 337.2626pt x 252.94695pt.
- [6 <./rho3.jpg> <./rho5.jpg>] <eig400rho5.jpg, id=43, 562.1pt x 421.575pt>
+ [5 <./rho3.jpg> <./rho5.jpg>] <eig400rho5.jpg, id=39, 562.1pt x 421.575pt>
 File: eig400rho5.jpg Graphic file (type jpg)
  <use eig400rho5.jpg>
 Package pdftex.def Info: eig400rho5.jpg used on input line 159.
 (pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
 
-[7 <./rho10.jpg> <./eig400rho5.jpg>] [8] [9]
+[6 <./rho10.jpg> <./eig400rho5.jpg>] [7]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 181.
- [10]
+ [8]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 181.
  (assignment2.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 181.
@@ -727,10 +711,10 @@ Package rerunfilecheck Info: File `assignment2.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 181.
  ) 
 Here is how much of TeX's memory you used:
- 7754 strings out of 493323
- 109064 string characters out of 3139066
- 203849 words of memory out of 3000000
- 11186 multiletter control sequences out of 15000+200000
+ 7426 strings out of 493323
+ 104492 string characters out of 3139066
+ 202724 words of memory out of 3000000
+ 10867 multiletter control sequences out of 15000+200000
  8702 words of font info for 33 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  28i,8n,40p,556b,387s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -743,9 +727,9 @@ nts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 msfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pf
 b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on assignment2.pdf (10 pages, 367241 bytes).
+Output written on assignment2.pdf (8 pages, 365709 bytes).
 PDF statistics:
- 97 PDF objects out of 1000 (max. 8388607)
- 11 named destinations out of 1000 (max. 500000)
+ 89 PDF objects out of 1000 (max. 8388607)
+ 9 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
