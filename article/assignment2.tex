@@ -151,10 +151,7 @@ And set this equal to zero:
 $$tan(2\theta)=\frac{2A_{ij}}{A_{jj}-A_{ii}}$$
 if $A_{jj}=A_{ii}$, then $\theta=\frac{\pi}{4}$
 This is optimized by using the off-diagonal element with the largest absolute value as $A_{ij}$
-The Jacobi eigenvalue method repeats this rotation until the matrix becomes close to diagonal. In reality it checks if all the non-diagonal elements are smaller than a given tolerance. The elements on the diagonal are then approximations of the real eigenvalues of $A$.\\
-
-
-\noindent The Jacobi eigenvalue method repeats this rotation until the matrix becomes close to diagonal. The elements on the diagonal are then approximations of the real eigenvalues of $A$.
+The Jacobi eigenvalue method repeats this rotation until the matrix becomes close to diagonal. In reality it checks if all the non-diagonal elements are smaller than a given tolerance. This check makes the algorithm extremely slow. The entire algorithm uses between $12n^3-20n^3$ flops. The elements on the diagonal are then approximations of the real eigenvalues of $A$. (Hjort-Jensen, 2015)\\
 
 
 \noindent The algorithm was developed by first creating a matrix $U$ as shown above, letting the matrix size n run from 40 to 400 in 10 steps so that the three lowest eigenvalues produced by a later algorithm would approach 3, 7 and 11.
