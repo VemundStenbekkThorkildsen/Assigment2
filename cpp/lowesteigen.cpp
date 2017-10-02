@@ -39,12 +39,12 @@ void lowesteigen(mat A, mat R, int n, double romax, string answer){
     outFile2 << lowestvec << ", " << secondlowestvec << ", "<< thirdlowestvec << ", ";
     outFile2.close();
     */
-    /*
-    string outFileName = "diagonal_A_" + to_string(n) + "_" + to_string(romax) + ".txt";
+
+    string outFileName = "eigenvec_" + to_string(n) + "_omega(5)" + ".txt";
     ofstream outFile(outFileName);
-    outFile << lowest << ", " << secondlowest << ", "<< thirdlowest << ", ";
+    outFile << lowestvec << ", " << secondlowestvec << ", "<< thirdlowestvec << ", ";
     outFile.close();
-    */
+
     if (answer == "test"){
         double eps = 1e-5;
         double check = lowest-0.16664;

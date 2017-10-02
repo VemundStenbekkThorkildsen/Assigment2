@@ -121,7 +121,7 @@ $
              \end{bmatrix}
 $
 \end{center}
-We are going to solve this by using a Jacobi rotation algorithm. This uses a lot of similarity transformations. These transformations can be shown to preserve the dot product and orthogonality:
+
 
 
 
@@ -132,14 +132,39 @@ We are going to solve this by using a Jacobi rotation algorithm. This uses a lot
 \begin{center}
 {\LARGE\bf Results}
 \end{center}
-
+We have run our algorithm for different cases and focused on different parameters. The different cases have been for two electrons with and without repulsive coulomb interaction. In the first four figures we have focused on the eigenvalues created by the eigenvalue solver. This has been plotted against the number of iterations $n$ for 4 different values of ${\rho}_{max}$. This is compared to the known values of the three lowest eigenvalues, $\lambda_1=3$, $\lambda_2=7$, $\lambda_3=11$, to find a sensible value of ${\rho}_{max}$. 
 
 \begin{center}
 \includegraphics[scale=0.65]{rho1.jpg}
-\includegraphics[scale=0.65]{rho3.jpg}
-\includegraphics[scale=0.65]{rho5.jpg}
-\includegraphics[scale=0.65]{rho10.jpg}
+
+$Figure-1$: Here we have chosen ${\rho}_{max}$ to be 1. As the three lowest eigenvalues are known, this is obviously not a good fit.   
+
+
+
+\includegraphics[scale=0.55]{rho3.jpg}
+
+$Figure-2$: Here we have chosen ${\rho}_{max}$ to be 3. The eigenvalues are much closer than in figure 1, but they are still not correct. 
+
+
+\includegraphics[scale=0.55]{rho5.jpg}
+$Figure-3$: Here we have chosen ${\rho}_{max}$ to be 5. In this case all the eigenvalues converge to the correct values. 
+
+\includegraphics[scale=0.6]{rho10.jpg}
+$Figure-4$: Here we have chosen ${\rho}_{max}$ to be 10. In this case all the eigenvalues converge to the correct values, but slower than in the case with ${\rho}_{max}=5$
 \end{center}
+
+\noindent From these plots it is easy to see that ${\rho}_{max}=1$ and ${\rho}_{max}=3$ is to low( Figure 1, Figure 2), while the two larger values seem to produce the correct results (Figure 3, Figure 4). The reason for this will be discussed later in the article. Now we can plot the wave functions produced by the same runs. 
+
+\begin{center}
+\includegraphics[scale=0.5]{eig400rho5.jpg}
+$Figure-5$: Here we have chosen ${\rho}_{max}$ to be 5. The probability dies out before we reach ${\rho}_{max}$. We also see that $\lambda_1$ only has one top, $\lambda_2$ has two tops and $\lambda_3$ has three tops. 
+
+
+
+
+\end{center}
+
+
 
 
 

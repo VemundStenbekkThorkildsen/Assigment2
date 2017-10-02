@@ -28,6 +28,7 @@ string outFileName = "iterations_" + to_string(iterations) + "_" + to_string(n) 
 ofstream outFile(outFileName);
 outFile << iterations << ", " << n << ", ";
 outFile.close();
-return max_offdiag;
 */
+return max_offdiag;
+
 }
