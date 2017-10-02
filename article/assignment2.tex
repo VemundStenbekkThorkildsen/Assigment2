@@ -121,11 +121,12 @@ $
              \end{bmatrix}
 $
 \end{center}
-
-
-
-
-
+We are going to solve this by using a Jacobi rotation algorithm. This uses a lot of similarity transformations. As long as:
+$$v_j^Tv_i=\delta_{i j}$$
+$$U^TU=I$$
+The transformations can be shown to preserve the dot product and orthogonality by multiplying with the transpose of the matrix:
+$$w=Uv$$
+$$w^Tw=(Uv)^TUv=v^TU^TUv=v^Tv=\delta_{i j}$$
 
 \newpage
 
@@ -153,8 +154,8 @@ $Figure-3$: Here we have chosen ${\rho}_{max}$ to be 5. In this case all the eig
 $Figure-4$: Here we have chosen ${\rho}_{max}$ to be 10. In this case all the eigenvalues converge to the correct values, but slower than in the case with ${\rho}_{max}=5$
 \end{center}
 
-\noindent From these plots it is easy to see that ${\rho}_{max}=1$ and ${\rho}_{max}=3$ is to low( Figure 1, Figure 2), while the two larger values seem to produce the correct results (Figure 3, Figure 4). The reason for this will be discussed later in the article. Now we can plot the wave functions produced by the same runs. 
-
+\noindent From these plots it is easy to see that ${\rho}_{max}=1$ and ${\rho}_{max}=3$ is to low( Figure 1, Figure 2), while the two larger values seem to produce the correct results (Figure 3, Figure 4). The reason for this will be discussed later in the article. Now we can plot the wave functions produced by the same runs, i.e the case with 2 non-interacting electrons. 
+\newpage
 \begin{center}
 \includegraphics[scale=0.5]{eig400rho5.jpg}
 $Figure-5$: Here we have chosen ${\rho}_{max}$ to be 5. The probability dies out before we reach ${\rho}_{max}$. We also see that $\lambda_1$ only has one top, $\lambda_2$ has two tops and $\lambda_3$ has three tops. 
