@@ -31,8 +31,8 @@
 		{Å}{{\AA}}1
 		{Ø}{{\O}}1
 	}
-
-
+\usepackage{setspace}
+\doublespacing
 \usepackage{bm}
 \usepackage{hyperref}
 
@@ -128,7 +128,6 @@ The transformations can be shown to preserve the dot product and orthogonality b
 $$w=Uv$$
 $$w^Tw=(Uv)^TUv=v^TU^TUv=v^Tv=\delta_{i j}$$
 
-<<<<<<< HEAD
 \noindent As stated earlier in this article we are going to solve this problem by using the Jacobi eigenvalue algorithm. Consider a symmetric matrix A and Givens rotation matrix R:
 $$A'=RAR^T$$
 $A'$ is symmetric and similar. $A'$ has entries:
@@ -143,16 +142,11 @@ We choose $\theta$ such that $A'_{ij}=0$
 Rewrite the 3rd equation:
 $$A'_{ij}=c(2\theta)A_{ij}+\frac{1}{2}s(2\theta)(A_{ii}-A_{jj})$$
 And set this equal to zero:
-$$t(2\theta)=\frac{2A_{ij}}{A_{jj}-A_{ii}}$$
+$$tan(2\theta)=\frac{2A_{ij}}{A_{jj}-A_{ii}}$$
 if $A_{jj}=A_{ii}$, then $\theta=\frac{\pi}{4}$
 This is optimized by using the off-diagonal element with the largest absolute value as $A_{ij}$
-<<<<<<< HEAD
 The Jacobi eigenvalue method repeats this rotation until the matrix becomes close to diagonal. The elements on the diagonal are then approximations of the real eigenvalues of $A$.\\
 
-=======
-The Jacobi eigenvalue method repeats this rotation until the matrix becomes close to diagonal. The elements on the diagonal are then approximations of the real eigenvalues of $A$.
-=======
->>>>>>> 7a86dbaa884aa239b8376289dd5efd018f203fca
 \noindent The algorithm was developed by first creating a matrix $U$ as shown above, letting the matrix size n run from 40 to 400 in 10 steps so that the three lowest eigenvalues produced by a later algorithm would approach 3, 7 and 11.
 The first algorithm/function $(maxoffdiag.cpp)$ finds the maximum values of the upper triangular matrix of U and then located the $k$ and $l$ coordinates. The max value of the upper triangular matrix is returned.
 
@@ -160,14 +154,9 @@ The Jacobi rotation is defined as a function in our script and is later called u
 
 The last script $lowesteigen.cpp$ finds the three lowest eigenvalues with the corresponding eigenvectors. The eigenvalues and eigenvectors were saved as a txt file and implemented into a MatLab script to plot.
 
-<<<<<<< HEAD
 Two tests were implemented using user input. The first one is testing if the rotation matrix R is orthogonal so that $R^{T}R = I$. 
 
 
-=======
-Two tests were implemented using user input. The first one is testing if the rotation matrix R is orthogonal so that $R^{T}R = I$. This was calculated by approximately comparing $R^{T}R$ to I. The second test was comparing the numerically calculated eigenvalues of a matrix S 
-to known eigenvalues. If these are approximately the same, then the test passes.
->>>>>>> 7a86dbaa884aa239b8376289dd5efd018f203fca
 
 \newpage
 
@@ -208,8 +197,17 @@ $Figure-6$: Here we have chosen ${\rho}_{max}$ to be 10. The wave function is of
 \noindent As the wave function dies out at approximately the same place in both Figure 5 and Figure 6, the most sensible ${\rho}_{max}$ will be 5. \\
 
 \noindent One of the problems with the jacobi eigenvalue solver is that it uses a lot of flops, which can take a lot of time. Figure 7 demonstrates that the total number of operations grows exponentially. 
-
+\begin{center}
 \includegraphics[scale=0.6]{itvsmatsize.jpg}
+$Figure-7$: This figure is showing the number of iterations plotted against n. The growth was calculated to be the second order polynomial $1.9x^2-46.5x+2219.3$
+\end{center}
+
+\includegraphics[scale=0.5]{eigomg001.jpg}
+\includegraphics[scale=0.5]{eigomg05.jpg}
+\includegraphics[scale=0.5]{eigomg1.jpg}
+\includegraphics[scale=0.5]{eigomg5.jpg}
+
+
 
 
 
@@ -228,5 +226,11 @@ $Figure-6$: Here we have chosen ${\rho}_{max}$ to be 10. The wave function is of
 
 \begin{center}
 {\LARGE\bf Concluding remarks}
+\end{center}
+
+
+\newpage
+\begin{center}
+{\LARGE\bf References}
 \end{center}
 \end{document}
