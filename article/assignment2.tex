@@ -42,12 +42,14 @@
 FYS4150\\
 Project 2, deadline October 2.
 }
- \includegraphics[scale=0.1]{uio.png}\\
+ \includegraphics[scale=0.075]{uio.png}\\
 Authors: Robin D. Kifle, Sander W. Losnedahl and Vemund S. Thorkildsen\\
 University of Oslo, Autumn 2017
  
 {\LARGE\bf Abstract}
 \end{center}
+We looked at three cases involving electrons in a harmonic oscillator well. The first case is for a single electron moving in the well, the second is for two electrons moving in a well without interaction. The third is for two electrons moving in the harmonic oscillator with a repulsive coulomb interaction. The Schroedinger equation for these three cases was solved by making a Jacobi eigenvalue solver. This algorithm is extremely inefficient. It uses typically between $12n^3-20n^3$ flops. The algorithm is a pure eigenvalue solver, and as a cause of this it can be used in different cases with smaller modifications. The case with one electron and two non-interacting electrons have a similar solution. By looking at different values of $\rho_{max}$, we found that values smaller than 5 affected the solution drastically. In these cases the wave function is pushed into a to small area, altering the solution. For the interacting case we varied the oscillator potential, and found that a strong potential narrowed the probability and shifted it towards $\rho_0$.
+
 \newpage
 
 \begin{center}
@@ -245,7 +247,7 @@ For bigger values of $\omega_r$ the probability distribution is shifted to the l
 \begin{center}
 {\LARGE\bf Concluding remarks}
 \end{center}
-The Jacobi eigenvalue solver we have developed is extremely inefficient. It uses long time to calculate the eigenvalues, because it checks if every non-diagonal element is smaller than the tolerance. By studying the case with two non-interacting electrons, and varying $\rho_{max}$, we found that the eigenvalues were severely altered if $\rho_{max}<5$. With small values of $\rho_{max}$ we are effectively confining the wave function ($\psi$) and probability distribution($\psi^2$) into a too small area. This is altering the wave function and probability distribution. In the case with two electrons interacting, we studied the effect of varying potential strength. The algorithm is the same in both cases, but the potential is different. For cases with weak potential the probability is widespread. With stronger potential, the probability is shifted to $\rho_0=0$ and narrows. 
+The Jacobi eigenvalue solver we have developed is extremely inefficient. It uses long time to calculate the eigenvalues, because it checks if every non-diagonal element is smaller than the tolerance. By studying the case with two non-interacting electrons, and varying $\rho_{max}$, we found that the eigenvalues were severely altered if $\rho_{max}<5$. With small values of $\rho_{max}$ we are effectively confining the wave function ($\psi$) and probability distribution($\psi^2$) into a too small area. This is altering the wave function and probability distribution. In the case with two electrons interacting, we studied the effect of varying potential strength. The algorithm is the same in both cases, but the potential is different. For cases with weak potential the probability is widespread. With stronger potential, the probability is shifted towards $\rho_0=0$ and narrows. 
 \newpage
 \begin{center}
 {\LARGE\bf References}
