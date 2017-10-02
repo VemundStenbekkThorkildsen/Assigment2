@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.2)  2 OCT 2017 20:40
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.21)  2 OCT 2017 23:19
+>>>>>>> b31023e4daf760695a054bf237055ff29577e995
 entering extended mode
 **./assignment2.tex
 (assignment2.tex
@@ -439,7 +443,7 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen112
 \Gin@req@width=\dimen113
 )
-(C:\Users\sande\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.sty
+(C:\Users\vemun\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.sty
 \lst@mode=\count100
 \lst@gtempboxa=\box28
 \lst@token=\toks22
@@ -453,21 +457,21 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 \lst@lineno=\count105
 \lst@maxwidth=\dimen117
 
-(C:\Users\sande\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty
+(C:\Users\vemun\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 \c@lstnumber=\count106
 \lst@skipnumbers=\count107
 \lst@framebox=\box29
 )
-(C:\Users\sande\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.cfg
+(C:\Users\vemun\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.cfg
 File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
-(C:\Users\sande\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstlang1.sty
+(C:\Users\vemun\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-(C:\Users\sande\AppData\Roaming\MiKTeX\2.9\tex\latex\setspace\setspace.sty
+(C:\Users\vemun\AppData\Roaming\MiKTeX\2.9\tex\latex\setspace\setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\bm.sty"
@@ -557,7 +561,7 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4751.
 \c@Hy@tempcnt=\count111
 
-(C:\Users\sande\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
+(C:\Users\vemun\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -612,7 +616,7 @@ LaTeX Font Info:    ... okay on input line 39.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 39.
 LaTeX Font Info:    ... okay on input line 39.
 
-(C:\Users\sande\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+(C:\Users\vemun\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count118
 \scratchdimen=\dimen122
@@ -694,57 +698,92 @@ Underfull \hbox (badness 10000) in paragraph at lines 149--153
 [5] [6] <rho1.jpg, id=41, 562.1pt x 421.575pt>
 File: rho1.jpg Graphic file (type jpg)
  <use rho1.jpg>
+<<<<<<< HEAD
 Package pdftex.def Info: rho1.jpg used on input line 183.
 (pdftex.def)             Requested size: 365.36067pt x 274.0205pt.
 
 Overfull \hbox (20.36067pt too wide) in paragraph at lines 183--184
+=======
+Package pdftex.def Info: rho1.jpg used on input line 180.
+(pdftex.def)             Requested size: 365.36067pt x 274.0205pt.
+
+Overfull \hbox (20.36067pt too wide) in paragraph at lines 180--181
+>>>>>>> b31023e4daf760695a054bf237055ff29577e995
  [] 
  []
 
 <rho3.jpg, id=42, 562.1pt x 421.575pt>
 File: rho3.jpg Graphic file (type jpg)
  <use rho3.jpg>
+<<<<<<< HEAD
 Package pdftex.def Info: rho3.jpg used on input line 189.
+=======
+Package pdftex.def Info: rho3.jpg used on input line 186.
+>>>>>>> b31023e4daf760695a054bf237055ff29577e995
 (pdftex.def)             Requested size: 309.15596pt x 231.86696pt.
  [7 <./rho1.jpg>]
 <rho5.jpg, id=48, 562.1pt x 421.575pt>
 File: rho5.jpg Graphic file (type jpg)
  <use rho5.jpg>
+<<<<<<< HEAD
 Package pdftex.def Info: rho5.jpg used on input line 194.
+=======
+Package pdftex.def Info: rho5.jpg used on input line 191.
+>>>>>>> b31023e4daf760695a054bf237055ff29577e995
 (pdftex.def)             Requested size: 309.15596pt x 231.86696pt.
 
 <rho10.jpg, id=49, 562.1pt x 421.575pt>
 File: rho10.jpg Graphic file (type jpg)
  <use rho10.jpg>
+<<<<<<< HEAD
 Package pdftex.def Info: rho10.jpg used on input line 197.
+=======
+Package pdftex.def Info: rho10.jpg used on input line 194.
+>>>>>>> b31023e4daf760695a054bf237055ff29577e995
 (pdftex.def)             Requested size: 337.2626pt x 252.94695pt.
  [8 <./rho3.jpg> <./rho5.jpg>] [9 <./rho10.jpg>] <eig400rho3.jpg, id=58, 562.1p
 t x 421.575pt>
 File: eig400rho3.jpg Graphic file (type jpg)
 
 <use eig400rho3.jpg>
+<<<<<<< HEAD
 Package pdftex.def Info: eig400rho3.jpg used on input line 204.
+=======
+Package pdftex.def Info: eig400rho3.jpg used on input line 201.
+>>>>>>> b31023e4daf760695a054bf237055ff29577e995
 (pdftex.def)             Requested size: 309.15596pt x 231.86696pt.
  <eig400rho5.jpg, id=59, 562.1pt x 421.575pt>
 File: eig400rho5.jpg Graphic file (type jpg)
 
 <use eig400rho5.jpg>
+<<<<<<< HEAD
 Package pdftex.def Info: eig400rho5.jpg used on input line 206.
+=======
+Package pdftex.def Info: eig400rho5.jpg used on input line 203.
+>>>>>>> b31023e4daf760695a054bf237055ff29577e995
 (pdftex.def)             Requested size: 309.15596pt x 231.86696pt.
  <eig360Rho10.jpg, id=60, 562.1pt x 421.575pt>
 File: eig360Rho10.jpg Graphic file (type jpg)
 
 <use eig360Rho10.jpg>
+<<<<<<< HEAD
 Package pdftex.def Info: eig360Rho10.jpg used on input line 209.
 (pdftex.def)             Requested size: 309.15596pt x 231.86696pt.
  [10 <./eig400rho3.jpg> <./eig400rho5.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 213--214
+=======
+Package pdftex.def Info: eig360Rho10.jpg used on input line 206.
+(pdftex.def)             Requested size: 309.15596pt x 231.86696pt.
+ [10 <./eig400rho3.jpg> <./eig400rho5.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 210--211
+>>>>>>> b31023e4daf760695a054bf237055ff29577e995
 
  []
 
 <itvsmatsize.jpg, id=65, 562.1pt x 421.575pt>
 File: itvsmatsize.jpg Graphic file (type jpg)
  <use itvsmatsize.jpg>
+<<<<<<< HEAD
 Package pdftex.def Info: itvsmatsize.jpg used on input line 217.
 (pdftex.def)             Requested size: 337.2626pt x 252.94695pt.
  [11 <./eig360Rho10.jpg>] <eigomg001.jpg, id=70, 754.82pt x 618.31pt>
@@ -778,9 +817,22 @@ Overfull \hbox (32.40909pt too wide) in paragraph at lines 223--227
 
 Overfull \hbox (8.82101pt too wide) in paragraph at lines 223--227
  [] 
+=======
+Package pdftex.def Info: itvsmatsize.jpg used on input line 214.
+(pdftex.def)             Requested size: 337.2626pt x 252.94695pt.
+ [11 <./eig360Rho10.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 218--219
+
+>>>>>>> b31023e4daf760695a054bf237055ff29577e995
  []
 
+<eigomg0011.jpg, id=70, 562.1pt x 421.575pt>
+File: eigomg0011.jpg Graphic file (type jpg)
+ <use eigomg0011.jpg>
+Package pdftex.def Info: eigomg0011.jpg used on input line 223.
+(pdftex.def)             Requested size: 337.2626pt x 252.94695pt.
 
+<<<<<<< HEAD
 Overfull \hbox (22.3716pt too wide) in paragraph at lines 223--227
  [] 
  []
@@ -790,21 +842,55 @@ Overfull \hbox (22.3716pt too wide) in paragraph at lines 223--227
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 246.
  [17]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 246.
+=======
+<eigomg055.jpg, id=71, 562.1pt x 421.575pt>
+File: eigomg055.jpg Graphic file (type jpg)
+ <use eigomg055.jpg>
+Package pdftex.def Info: eigomg055.jpg used on input line 225.
+(pdftex.def)             Requested size: 337.2626pt x 252.94695pt.
+
+<eigomg11.jpg, id=72, 562.1pt x 421.575pt>
+File: eigomg11.jpg Graphic file (type jpg)
+ <use eigomg11.jpg>
+Package pdftex.def Info: eigomg11.jpg used on input line 227.
+(pdftex.def)             Requested size: 337.2626pt x 252.94695pt.
+
+<eigomg55.jpg, id=73, 562.1pt x 421.575pt>
+File: eigomg55.jpg Graphic file (type jpg)
+ <use eigomg55.jpg>
+Package pdftex.def Info: eigomg55.jpg used on input line 229.
+(pdftex.def)             Requested size: 337.2626pt x 252.94695pt.
+ [12 <./itvsmatsize.jpg>] [13 <./eigomg0011.jpg> <./eigomg055.jpg>] [14 <./eigo
+mg11.jpg> <./eigomg55.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 239--240
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 241--242
+
+ []
+
+[15] [16]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 257.
+ [17]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 257.
+>>>>>>> b31023e4daf760695a054bf237055ff29577e995
  (assignment2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 246.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 246.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 257.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 257.
 Package rerunfilecheck Info: File `assignment2.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 246.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 257.
  ) 
 Here is how much of TeX's memory you used:
  7798 strings out of 493323
- 109722 string characters out of 3139066
+ 109742 string characters out of 3139066
  204849 words of memory out of 3000000
  11215 multiletter control sequences out of 15000+200000
  8870 words of font info for 34 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,8n,40p,721b,387s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 28i,8n,40p,1163b,387s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKT
@@ -815,7 +901,11 @@ msfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pf
 b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+<<<<<<< HEAD
 Output written on assignment2.pdf (17 pages, 577098 bytes).
+=======
+Output written on assignment2.pdf (17 pages, 532748 bytes).
+>>>>>>> b31023e4daf760695a054bf237055ff29577e995
 PDF statistics:
  139 PDF objects out of 1000 (max. 8388607)
  18 named destinations out of 1000 (max. 500000)
