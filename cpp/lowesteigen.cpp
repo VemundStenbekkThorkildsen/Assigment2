@@ -40,7 +40,7 @@ void lowesteigen(mat A, mat R, int n, double romax, string answer){
     outFile2.close();
     */
 
-    string outFileName = "eigenvec_" + to_string(n) + "_omega(5)" + ".txt";
+    string outFileName = "eigenvec_" + to_string(n) + "_omega(0.5)" + ".txt";
     ofstream outFile(outFileName);
     outFile << lowestvec << ", " << secondlowestvec << ", "<< thirdlowestvec << ", ";
     outFile.close();

@@ -26,7 +26,7 @@ int main()
     mat R = zeros(n,n);
     mat S = {{4,-30,60,-35},{-30,300,-675,420},{60,-675,1620,-1050},{-35,420,-1050,700}}; // Test matrix
     double ro0 = 0;
-    double omega = 5;
+    double omega = 0.5;
     double romax = 5; //We use varying romax (you can just change the value)
     double h = (romax-ro0)/(n); //Step length given in exercise
 
@@ -35,7 +35,7 @@ int main()
     for (int i = 0; i < n; i++){ //Creating matrix A as specified in the exercise
         V(i) = ro0 + i*h*i*h; //
         if (answer == "interactive"){ //Defining step length for an interactive case
-            V(i) = (omega*romax*omega*romax) + 1/romax;
+            V(i) = (omega*i*h*omega*i*h) + 1/romax;
         }
         A(i,i) = (2./(h*h)) + V(i); //The diagonal
         for (int j = i+1; j < n; j++){

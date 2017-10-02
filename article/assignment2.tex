@@ -71,7 +71,7 @@ $$
  u''=\frac{u(\rho+h) -2u(\rho) +u(\rho-h)}{h^2} +O(h^2)
 $$ 
 \noindent
-The last part of this expression, namely $O(h^2$, is the truncation error and will not be used further. Bu using the first part, our expression now looks like this:
+The last part of this expression, namely $O(h^2$, is the truncation error and will not be used further. By using the first part, our expression now looks like this:
 
 $$
 \frac{-u(\rho_i+h) +2u(\rho_i) -u(\rho_i-h)}{h^2}+\rho_i^2u(\rho_i)  = \lambda u(\rho_i)
@@ -128,6 +128,25 @@ The transformations can be shown to preserve the dot product and orthogonality b
 $$w=Uv$$
 $$w^Tw=(Uv)^TUv=v^TU^TUv=v^Tv=\delta_{i j}$$
 
+\noindent As stated earlier in this article we are going to solve this problem by using the Jacobi eigenvalue algorithm. Consider a symmetric matrix A and Givens rotation matrix R:
+$$A'=RAR^T$$
+$A'$ is symmetric and similar. $A'$ has entries:
+$$A'_{ii} = c^2A_{ii}-2scA_{ij}+s^2A{jj}$$
+$$A'_{jj} = s^2A_{ii}+2scA_{ij}+c^2A_{jj}$$
+$$A'_{ij} = A'_{ji} = (c^2-s^2)A_{ij}+sc(A_{ii}-A_{jj})$$
+$$A'_{ik}=A'_{ki}=cA_ik-sA_{jk} \hspace{3cm} k\neq i,j$$
+$$A'_{jk} = A'_{kj} = sA_{ik}+cA_{jk} \hspace{3cm} k\neq i,j$$
+$$A'_{kl} = S_{kl} \hspace{5cm} k,l \neq i,j$$
+where $s=sin(\theta)$ and $c=cos(\theta)$
+We choose $\theta$ such that $A'_{ij}=0$
+Rewrite the 3rd equation:
+$$A'_{ij}=c(2\theta)A_{ij}+\frac{1}{2}s(2\theta)(A_{ii}-A_{jj})$$
+And set this equal to zero:
+$$t(2\theta)=\frac{2A_{ij}}{A_{jj}-A_{ii}}$$
+if $A_{jj}=A_{ii}$, then $\theta=\frac{\pi}{4}$
+This is optimized by using the off-diagonal element with the largest absolute value as $A_{ij}$
+The Jacobi eigenvalue method repeats this rotation until the matrix becomes close to diagonal. The elements on the diagonal are then approximations of the real eigenvalues of $A$.
+
 \newpage
 
 \begin{center}
@@ -157,14 +176,18 @@ $Figure-4$: Here we have chosen ${\rho}_{max}$ to be 10. In this case all the ei
 \noindent From these plots it is easy to see that ${\rho}_{max}=1$ and ${\rho}_{max}=3$ is to low( Figure 1, Figure 2), while the two larger values seem to produce the correct results (Figure 3, Figure 4). The reason for this will be discussed later in the article. Now we can plot the wave functions produced by the same runs, i.e the case with 2 non-interacting electrons. 
 \newpage
 \begin{center}
-\includegraphics[scale=0.5]{eig400rho5.jpg}
+\includegraphics[scale=0.55]{eig400rho5.jpg}
 $Figure-5$: Here we have chosen ${\rho}_{max}$ to be 5. The probability dies out before we reach ${\rho}_{max}$. We also see that $\lambda_1$ only has one top, $\lambda_2$ has two tops and $\lambda_3$ has three tops. 
-fgenrjgaNODSDJKGJTRHFA
 
-
-
-
+\includegraphics[scale=0.55]{eig360Rho10.jpg}
+$Figure-6$: Here we have chosen ${\rho}_{max}$ to be 10. The wave function is of similar shape, and dies out at the approximately the same place as for ${\rho}_{max}=5$. 
 \end{center}
+
+\noindent As the wave function dies out at approximately the same place in both Figure 5 and Figure 6, the most sensible ${\rho}_{max}$ will be 5. 
+
+
+
+
 
 
 
