@@ -31,8 +31,8 @@
 		{Å}{{\AA}}1
 		{Ø}{{\O}}1
 	}
-
-
+\usepackage{setspace}
+\doublespacing
 \usepackage{bm}
 \usepackage{hyperref}
 
@@ -128,7 +128,6 @@ The transformations can be shown to preserve the dot product and orthogonality b
 $$w=Uv$$
 $$w^Tw=(Uv)^TUv=v^TU^TUv=v^Tv=\delta_{i j}$$
 
-<<<<<<< HEAD
 \noindent As stated earlier in this article we are going to solve this problem by using the Jacobi eigenvalue algorithm. Consider a symmetric matrix A and Givens rotation matrix R:
 $$A'=RAR^T$$
 $A'$ is symmetric and similar. $A'$ has entries:
@@ -143,10 +142,12 @@ We choose $\theta$ such that $A'_{ij}=0$
 Rewrite the 3rd equation:
 $$A'_{ij}=c(2\theta)A_{ij}+\frac{1}{2}s(2\theta)(A_{ii}-A_{jj})$$
 And set this equal to zero:
-$$t(2\theta)=\frac{2A_{ij}}{A_{jj}-A_{ii}}$$
+$$tan(2\theta)=\frac{2A_{ij}}{A_{jj}-A_{ii}}$$
 if $A_{jj}=A_{ii}$, then $\theta=\frac{\pi}{4}$
 This is optimized by using the off-diagonal element with the largest absolute value as $A_{ij}$
 The Jacobi eigenvalue method repeats this rotation until the matrix becomes close to diagonal. The elements on the diagonal are then approximations of the real eigenvalues of $A$.
+<<<<<<< HEAD
+=======
 =======
 \noindent The algorithm was developed by first creating a matrix $U$ as shown above, letting the matrix size n run from 40 to 400 in 10 steps so that the three lowest eigenvalues produced by a later algorithm would approach 3, 7 and 11.
 The first algorithm/function $(maxoffdiag.cpp)$ finds the maximum values of the upper triangular matrix of U and then located the $k$ and $l$ coordinates. The max value of the upper triangular matrix is returned.
@@ -157,6 +158,7 @@ The last script $lowesteigen.cpp$ finds the three lowest eigenvalues with the co
 
 Two tests were implemented using user input. The first one is testing if the rotation matrix R is orthogonal so that $R^{T}R = I$. 
 
+>>>>>>> 07311915b291acb8c3792e960385c5c059e62d74
 
 \newpage
 
@@ -213,5 +215,11 @@ $Figure-6$: Here we have chosen ${\rho}_{max}$ to be 10. The wave function is of
 
 \begin{center}
 {\LARGE\bf Concluding remarks}
+\end{center}
+
+
+\newpage
+\begin{center}
+{\LARGE\bf References}
 \end{center}
 \end{document}
