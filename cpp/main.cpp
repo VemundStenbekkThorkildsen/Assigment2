@@ -26,7 +26,7 @@ int main()
     mat R = zeros(n,n);
     mat S = {{4,-30,60,-35},{-30,300,-675,420},{60,-675,1620,-1050},{-35,420,-1050,700}}; // Test matrix
     double ro0 = 0;
-    double omega = 0.5;
+    double omega = 5;
     double romax = 5; //We use varying romax (you can just change the value)
     double h = (romax-ro0)/(n); //Step length given in exercise
 
