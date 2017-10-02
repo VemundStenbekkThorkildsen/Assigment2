@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.21)  2 OCT 2017 18:09
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.2)  2 OCT 2017 18:07
+>>>>>>> 07311915b291acb8c3792e960385c5c059e62d74
 entering extended mode
 **./assignment2.tex
 (assignment2.tex
@@ -682,46 +686,70 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--87
 
  []
 
-[3] [4] [5] <rho1.jpg, id=35, 562.1pt x 421.575pt>
+[3] [4] <rho1.jpg, id=31, 562.1pt x 421.575pt>
 File: rho1.jpg Graphic file (type jpg)
  <use rho1.jpg>
+<<<<<<< HEAD
 Package pdftex.def Info: rho1.jpg used on input line 158.
 (pdftex.def)             Requested size: 365.36067pt x 274.0205pt.
 
 Overfull \hbox (20.36067pt too wide) in paragraph at lines 158--159
+=======
+Package pdftex.def Info: rho1.jpg used on input line 169.
+(pdftex.def)             Requested size: 365.36067pt x 274.0205pt.
+
+Overfull \hbox (20.36067pt too wide) in paragraph at lines 169--170
+>>>>>>> 07311915b291acb8c3792e960385c5c059e62d74
  [] 
  []
 
-<rho3.jpg, id=36, 562.1pt x 421.575pt>
+<rho3.jpg, id=32, 562.1pt x 421.575pt>
 File: rho3.jpg Graphic file (type jpg)
  <use rho3.jpg>
+<<<<<<< HEAD
 Package pdftex.def Info: rho3.jpg used on input line 164.
+=======
+Package pdftex.def Info: rho3.jpg used on input line 175.
+>>>>>>> 07311915b291acb8c3792e960385c5c059e62d74
 (pdftex.def)             Requested size: 309.15596pt x 231.86696pt.
- [6 <./rho1.jpg>]
-<rho5.jpg, id=41, 562.1pt x 421.575pt>
+ [5 <./rho1.jpg>]
+<rho5.jpg, id=37, 562.1pt x 421.575pt>
 File: rho5.jpg Graphic file (type jpg)
  <use rho5.jpg>
+<<<<<<< HEAD
 Package pdftex.def Info: rho5.jpg used on input line 169.
+=======
+Package pdftex.def Info: rho5.jpg used on input line 180.
+>>>>>>> 07311915b291acb8c3792e960385c5c059e62d74
 (pdftex.def)             Requested size: 309.15596pt x 231.86696pt.
 
-<rho10.jpg, id=42, 562.1pt x 421.575pt>
+<rho10.jpg, id=38, 562.1pt x 421.575pt>
 File: rho10.jpg Graphic file (type jpg)
  <use rho10.jpg>
+<<<<<<< HEAD
 Package pdftex.def Info: rho10.jpg used on input line 172.
+=======
+Package pdftex.def Info: rho10.jpg used on input line 183.
+>>>>>>> 07311915b291acb8c3792e960385c5c059e62d74
 (pdftex.def)             Requested size: 337.2626pt x 252.94695pt.
- [7 <./rho3.jpg> <./rho5.jpg>] [8 <./rho10.jpg>] <eig400rho5.jpg, id=52, 562.1p
+ [6 <./rho3.jpg> <./rho5.jpg>] [7 <./rho10.jpg>] <eig400rho5.jpg, id=48, 562.1p
 t x 421.575pt>
 File: eig400rho5.jpg Graphic file (type jpg)
 
 <use eig400rho5.jpg>
+<<<<<<< HEAD
 Package pdftex.def Info: eig400rho5.jpg used on input line 179.
+=======
+Package pdftex.def Info: eig400rho5.jpg used on input line 190.
+>>>>>>> 07311915b291acb8c3792e960385c5c059e62d74
 (pdftex.def)             Requested size: 309.15596pt x 231.86696pt.
- <eig360Rho10.jpg, id=53, 562.1pt x 421.575pt>
+ <eig360Rho10.jpg, id=49, 562.1pt x 421.575pt>
 File: eig360Rho10.jpg Graphic file (type jpg)
 
 <use eig360Rho10.jpg>
-Package pdftex.def Info: eig360Rho10.jpg used on input line 182.
+Package pdftex.def Info: eig360Rho10.jpg used on input line 193.
 (pdftex.def)             Requested size: 309.15596pt x 231.86696pt.
+<<<<<<< HEAD
  [9 <./eig400rho5.jpg> <./eig360Rho10.jpg>] [10] [11]
 [12]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 212.
@@ -739,6 +767,25 @@ Here is how much of TeX's memory you used:
  109179 string characters out of 3139066
  205849 words of memory out of 3000000
  11190 multiletter control sequences out of 15000+200000
+=======
+ [8 <./eig400rho5.jpg> <./eig360Rho10.jpg>] [9]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 217.
+ [10]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 217.
+
+(assignment2.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 217.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 217.
+Package rerunfilecheck Info: File `assignment2.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 217.
+ ) 
+Here is how much of TeX's memory you used:
+ 7727 strings out of 493323
+ 108543 string characters out of 3139066
+ 207565 words of memory out of 3000000
+ 11162 multiletter control sequences out of 15000+200000
+>>>>>>> 07311915b291acb8c3792e960385c5c059e62d74
  8702 words of font info for 33 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  28i,8n,40p,556b,387s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -751,9 +798,16 @@ nts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 msfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pf
 b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+<<<<<<< HEAD
 Output written on assignment2.pdf (13 pages, 397647 bytes).
 PDF statistics:
  112 PDF objects out of 1000 (max. 8388607)
  14 named destinations out of 1000 (max. 500000)
+=======
+Output written on assignment2.pdf (10 pages, 398736 bytes).
+PDF statistics:
+ 98 PDF objects out of 1000 (max. 8388607)
+ 11 named destinations out of 1000 (max. 500000)
+>>>>>>> 07311915b291acb8c3792e960385c5c059e62d74
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
