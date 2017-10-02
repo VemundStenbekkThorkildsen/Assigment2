@@ -194,7 +194,11 @@ $Figure-5$: Here we have chosen ${\rho}_{max}$ to be 5. The probability dies out
 $Figure-6$: Here we have chosen ${\rho}_{max}$ to be 10. The wave function is of similar shape, and dies out at the approximately the same place as for ${\rho}_{max}=5$. 
 \end{center}
 
-\noindent As the wave function dies out at approximately the same place in both Figure 5 and Figure 6, the most sensible ${\rho}_{max}$ will be 5. 
+\noindent As the wave function dies out at approximately the same place in both Figure 5 and Figure 6, the most sensible ${\rho}_{max}$ will be 5. \\
+
+\noindent One of the problems with the jacobi eigenvalue solver is that it uses a lot of flops, which can take a lot of time. Figure 7 demonstrates that the total number of operations grows exponentially. 
+
+\includegraphics[scale=0.6]{itvsmatsize.jpg}
 
 
 
