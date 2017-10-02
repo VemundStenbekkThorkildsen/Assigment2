@@ -1,4 +1,20 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.2)  2 OCT 2017 19:36
+=======
+<<<<<<< HEAD
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.21)  2 OCT 2017 19:35
+=======
+<<<<<<< HEAD
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.2)  2 OCT 2017 19:32
+=======
+<<<<<<< HEAD
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.21)  2 OCT 2017 19:16
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.2)  2 OCT 2017 18:37
+>>>>>>> 7a86dbaa884aa239b8376289dd5efd018f203fca
+>>>>>>> 01aea6533d60437d924e9103c09c5dd2e83b7cbb
+>>>>>>> f65786feb8dd528e4591c03c5c3d57a0cd165083
+>>>>>>> 5846839f569697a851d7dbb2d16611b378390db5
 entering extended mode
 **./assignment2.tex
 (assignment2.tex
@@ -439,7 +455,7 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen112
 \Gin@req@width=\dimen113
 )
-(C:\Users\sande\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.sty
+(C:\Users\vemun\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.sty
 \lst@mode=\count100
 \lst@gtempboxa=\box28
 \lst@token=\toks22
@@ -453,19 +469,22 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 \lst@lineno=\count105
 \lst@maxwidth=\dimen117
 
-(C:\Users\sande\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty
+(C:\Users\vemun\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 \c@lstnumber=\count106
 \lst@skipnumbers=\count107
 \lst@framebox=\box29
 )
-(C:\Users\sande\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.cfg
+(C:\Users\vemun\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.cfg
 File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
-(C:\Users\sande\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstlang1.sty
+(C:\Users\vemun\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+(C:\Users\vemun\AppData\Roaming\MiKTeX\2.9\tex\latex\setspace\setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\bm.sty"
 Package: bm 2017/01/16 v1.2c Bold Symbol Support (DPC/FMi)
@@ -554,7 +573,7 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4751.
 \c@Hy@tempcnt=\count111
 
-(C:\Users\sande\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
+(C:\Users\vemun\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -609,7 +628,7 @@ LaTeX Font Info:    ... okay on input line 39.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 39.
 LaTeX Font Info:    ... okay on input line 39.
 
-(C:\Users\sande\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+(C:\Users\vemun\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count118
 \scratchdimen=\dimen122
@@ -679,12 +698,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--87
 
  []
 
+<<<<<<< HEAD
 [3]
+=======
+[3] [4]
+>>>>>>> 5846839f569697a851d7dbb2d16611b378390db5
 Underfull \hbox (badness 10000) in paragraph at lines 145--149
 
  []
 
+<<<<<<< HEAD
 [4] [5] <rho1.jpg, id=35, 562.1pt x 421.575pt>
+=======
+[5] [6] <rho1.jpg, id=39, 562.1pt x 421.575pt>
+>>>>>>> 5846839f569697a851d7dbb2d16611b378390db5
 File: rho1.jpg Graphic file (type jpg)
  <use rho1.jpg>
 Package pdftex.def Info: rho1.jpg used on input line 173.
@@ -694,31 +721,52 @@ Overfull \hbox (20.36067pt too wide) in paragraph at lines 173--174
  [] 
  []
 
+<<<<<<< HEAD
 <rho3.jpg, id=36, 562.1pt x 421.575pt>
+=======
+<rho3.jpg, id=40, 562.1pt x 421.575pt>
+>>>>>>> 5846839f569697a851d7dbb2d16611b378390db5
 File: rho3.jpg Graphic file (type jpg)
  <use rho3.jpg>
 Package pdftex.def Info: rho3.jpg used on input line 179.
 (pdftex.def)             Requested size: 309.15596pt x 231.86696pt.
+<<<<<<< HEAD
  [6 <./rho1.jpg>]
 <rho5.jpg, id=41, 562.1pt x 421.575pt>
+=======
+ [7 <./rho1.jpg>]
+<rho5.jpg, id=46, 562.1pt x 421.575pt>
+>>>>>>> 5846839f569697a851d7dbb2d16611b378390db5
 File: rho5.jpg Graphic file (type jpg)
  <use rho5.jpg>
 Package pdftex.def Info: rho5.jpg used on input line 184.
 (pdftex.def)             Requested size: 309.15596pt x 231.86696pt.
 
+<<<<<<< HEAD
 <rho10.jpg, id=42, 562.1pt x 421.575pt>
+=======
+<rho10.jpg, id=47, 562.1pt x 421.575pt>
+>>>>>>> 5846839f569697a851d7dbb2d16611b378390db5
 File: rho10.jpg Graphic file (type jpg)
  <use rho10.jpg>
 Package pdftex.def Info: rho10.jpg used on input line 187.
 (pdftex.def)             Requested size: 337.2626pt x 252.94695pt.
+<<<<<<< HEAD
  [7 <./rho3.jpg> <./rho5.jpg>] [8 <./rho10.jpg>] <eig400rho5.jpg, id=52, 562.1p
+=======
+ [8 <./rho3.jpg> <./rho5.jpg>] [9 <./rho10.jpg>] <eig400rho5.jpg, id=56, 562.1p
+>>>>>>> 5846839f569697a851d7dbb2d16611b378390db5
 t x 421.575pt>
 File: eig400rho5.jpg Graphic file (type jpg)
 
 <use eig400rho5.jpg>
 Package pdftex.def Info: eig400rho5.jpg used on input line 194.
 (pdftex.def)             Requested size: 309.15596pt x 231.86696pt.
+<<<<<<< HEAD
  <eig360Rho10.jpg, id=53, 562.1pt x 421.575pt>
+=======
+ <eig360Rho10.jpg, id=57, 562.1pt x 421.575pt>
+>>>>>>> 5846839f569697a851d7dbb2d16611b378390db5
 File: eig360Rho10.jpg Graphic file (type jpg)
 
 <use eig360Rho10.jpg>
@@ -736,6 +784,7 @@ File: itvsmatsize.jpg Graphic file (type jpg)
 Package pdftex.def Info: itvsmatsize.jpg used on input line 205.
 (pdftex.def)             Requested size: 337.2626pt x 252.94695pt.
 
+<<<<<<< HEAD
 Overfull \hbox (7.2626pt too wide) in paragraph at lines 205--206
 [][] 
  []
@@ -756,6 +805,63 @@ Here is how much of TeX's memory you used:
  108651 string characters out of 3139066
  207565 words of memory out of 3000000
  11166 multiletter control sequences out of 15000+200000
+=======
+<eigomg001.jpg, id=63, 754.82pt x 618.31pt>
+File: eigomg001.jpg Graphic file (type jpg)
+ <use eigomg001.jpg>
+Package pdftex.def Info: eigomg001.jpg used on input line 205.
+(pdftex.def)             Requested size: 377.40909pt x 309.15424pt.
+
+<eigomg05.jpg, id=64, 707.64375pt x 538.01pt>
+File: eigomg05.jpg Graphic file (type jpg)
+ <use eigomg05.jpg>
+Package pdftex.def Info: eigomg05.jpg used on input line 206.
+(pdftex.def)             Requested size: 353.82101pt x 269.00433pt.
+
+<eigomg1.jpg, id=65, 734.745pt x 521.95pt>
+File: eigomg1.jpg Graphic file (type jpg)
+ <use eigomg1.jpg>
+Package pdftex.def Info: eigomg1.jpg used on input line 207.
+(pdftex.def)             Requested size: 367.3716pt x 260.97435pt.
+
+<eigomg5.jpg, id=66, 562.1pt x 421.575pt>
+File: eigomg5.jpg Graphic file (type jpg)
+ <use eigomg5.jpg>
+Package pdftex.def Info: eigomg5.jpg used on input line 208.
+(pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
+
+Overfull \hbox (47.40909pt too wide) in paragraph at lines 205--209
+[][]
+ []
+
+
+Overfull \hbox (8.82101pt too wide) in paragraph at lines 205--209
+[]
+ []
+
+
+Overfull \hbox (22.3716pt too wide) in paragraph at lines 205--209
+[]
+ []
+
+[11 <./itvsmatsize.jpg>] [12 <./eigomg001.jpg> <./eigomg05.jpg>] [13 <./eigomg1
+.jpg> <./eigomg5.jpg>] [14] [15]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 236.
+ [16]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 236.
+ (assignment2.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 236.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 236.
+Package rerunfilecheck Info: File `assignment2.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 236.
+ ) 
+Here is how much of TeX's memory you used:
+ 7790 strings out of 493323
+ 109605 string characters out of 3139066
+ 205849 words of memory out of 3000000
+ 11210 multiletter control sequences out of 15000+200000
+>>>>>>> 5846839f569697a851d7dbb2d16611b378390db5
  8702 words of font info for 33 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  28i,8n,40p,556b,387s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -768,9 +874,17 @@ nts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 msfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pf
 b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+<<<<<<< HEAD
 Output written on assignment2.pdf (12 pages, 412403 bytes).
 PDF statistics:
  108 PDF objects out of 1000 (max. 8388607)
  13 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
+=======
+Output written on assignment2.pdf (16 pages, 536984 bytes).
+PDF statistics:
+ 129 PDF objects out of 1000 (max. 8388607)
+ 17 named destinations out of 1000 (max. 500000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+>>>>>>> 5846839f569697a851d7dbb2d16611b378390db5
 
