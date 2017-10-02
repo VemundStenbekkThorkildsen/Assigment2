@@ -53,8 +53,12 @@ University of Oslo, Autumn 2017
 \begin{center}
 {\LARGE\bf Introduction}
 \end{center}
-The problem we will deal with in this project is of quantum mechanical nature. As none of the three authors have had any quantum mechanics courses we will focus on the mathematical and numerical side of this problem. In this project we are going to develop our own eigenvalue-solver by using Jacobi's method. We will study two different cases, the first is for one electron moving in a harmonic oscillator. The second case is for two electrons moving in a harmonic oscillator with and without repulsive coulomb interaction.  
-\newpage'
+The problem we will deal with in this project is of quantum mechanical nature. As none of the three authors have had any quantum mechanics courses we will focus on the mathematical and numerical side of this problem. In this project we are going to develop our own eigenvalue-solver by using Jacobi's method. We will study two different cases, the first is for one electron moving in a harmonic oscillator. The second case is for two electrons moving in a harmonic oscillator with and without repulsive coulomb interaction. The code, and benchmarks can be found at \url{https://github.com/VemundStenbekkThorkildsen/Assigment2} \\
+
+\noindent The article will start by tackling the mathematics and programming, i.e how the code was made and the mathematics behind it. We will then move on to the results, and discuss these to the best of our ability.  
+
+
+\newpage
 
 \begin{center}
 {\LARGE\bf Method}
@@ -187,35 +191,30 @@ $Figure-4$: Here we have chosen ${\rho}_{max}$ to be 10. In this case all the ei
 \noindent From these plots it is easy to see that ${\rho}_{max}=1$ and ${\rho}_{max}=3$ is to low( Figure 1, Figure 2), while the two larger values seem to produce the correct results (Figure 3, Figure 4). The reason for this will be discussed later in the article. Now we can plot the wave functions produced by the same runs, i.e the case with 2 non-interacting electrons. 
 \newpage
 \begin{center}
+\includegraphics[scale=0.55]{eig400rho3.jpg}
+$Figure-5$: Here we have chosen ${\rho}_{max}$ to be 3. The probability distribution is pushed into the boundaries of $\rho$
 \includegraphics[scale=0.55]{eig400rho5.jpg}
-$Figure-5$: Here we have chosen ${\rho}_{max}$ to be 5. The probability dies out before we reach ${\rho}_{max}$. We also see that $\lambda_1$ only has one top, $\lambda_2$ has two tops and $\lambda_3$ has three tops. 
+$Figure-6$: Here we have chosen ${\rho}_{max}$ to be 5. The probability dies out before we reach ${\rho}_{max}$. We also see that $\lambda_1$ only has one top, $\lambda_2$ has two tops and $\lambda_3$ has three tops. 
 
 \includegraphics[scale=0.55]{eig360Rho10.jpg}
-$Figure-6$: Here we have chosen ${\rho}_{max}$ to be 10. The wave function is of similar shape, and dies out at the approximately the same place as for ${\rho}_{max}=5$. 
+$Figure-7$: Here we have chosen ${\rho}_{max}$ to be 10. The wave function is of similar shape, and dies out at the approximately the same place as for ${\rho}_{max}=5$. 
 \end{center}
 
-\noindent As the wave function dies out at approximately the same place in both Figure 5 and Figure 6, the most sensible ${\rho}_{max}$ will be 5. \\
+\noindent As the wave function dies out at approximately the same place in both Figure 6 and Figure 7, the most sensible ${\rho}_{max}$ will be 5. \\
 
-\noindent One of the problems with the jacobi eigenvalue solver is that it uses a lot of flops, which can take a lot of time. Figure 7 demonstrates that the total number of operations grows exponentially. 
+\noindent One of the problems with the jacobi eigenvalue solver is that it uses a lot of flops, which can take a lot of time. Figure 8 demonstrates that the total number of operations grows exponentially. 
 \begin{center}
 \includegraphics[scale=0.6]{itvsmatsize.jpg}
-$Figure-7$: This figure is showing the number of iterations plotted against n. The growth was calculated to be the second order polynomial $1.9x^2-46.5x+2219.3$
+$Figure-8$: This figure is showing the number of iterations plotted against n. The growth was calculated to be the second order polynomial $1.9x^2-46.5x+2219.3$
 \end{center}
+Figure 8 is showing an exponential growth of iterations for growing $n$. This means that the time needed to compute is getting extremely high for high $n$.
 
+\begin{center}
 \includegraphics[scale=0.5]{eigomg001.jpg}
 \includegraphics[scale=0.5]{eigomg05.jpg}
 \includegraphics[scale=0.5]{eigomg1.jpg}
 \includegraphics[scale=0.5]{eigomg5.jpg}
-
-
-
-
-
-
-
-
-
-
+\end{center}
 
 \newpage
 
@@ -223,6 +222,7 @@ $Figure-7$: This figure is showing the number of iterations plotted against n. T
 {\LARGE\bf Discussion}
 \end{center}
 \newpage
+In the first case we established a sensible value of ${\rho}_{max}$. We were given the analytic solution for the three lowest eigenvalues. By looking at Figure 1,2,3 and 4, it soon becomes clear that using ${\rho}_{max}<5$ does not give the correct eigenvalues.  
 
 \begin{center}
 {\LARGE\bf Concluding remarks}
