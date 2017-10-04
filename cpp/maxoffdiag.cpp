@@ -5,16 +5,14 @@
 using namespace std;
 using namespace arma;
 
-// Function to find the maximum matrix element. Can you figure out a more
-// elegant algorithm?
+//This function returns the maximum value of
 double maxoffdiag ( mat& A, int& k, int& l, int n )
 {
-    mat U = abs(trimatu(A,1));
-    double index = U.index_max();
-    k = index/n;
+    mat U = abs(trimatu(A,1)); //Creates U, the upper triangular matrix of A
+    double index = U.index_max(); //Finds the position of the highest value of U
+    k = index/n; //Defining the k and l elements
     l = index-n*k;
 
     double max = (U.max());
-    //cout << max << endl;
     return max;
 }
