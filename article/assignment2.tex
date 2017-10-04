@@ -149,21 +149,20 @@ And set this equal to zero:
 $$tan(2\theta)=\frac{2A_{ij}}{A_{jj}-A_{ii}}$$
 if $A_{jj}=A_{ii}$, then $\theta=\frac{\pi}{4}$
 This is optimized by using the off-diagonal element with the largest absolute value as $A_{ij}$
-The Jacobi eigenvalue method repeats this rotation until the matrix becomes close to diagonal. In reality it checks if all the non-diagonal elements are smaller than a given tolerance. This check makes the algorithm extremely slow. The entire algorithm uses between $12n^3-20n^3$ flops. The elements on the diagonal are then approximations of the real eigenvalues of $A$. (Hjort-Jensen, 2015)\\
+The Jacobi eigenvalue method repeats this rotation until the matrix becomes close to diagonal. In reality it checks if all the non-diagonal elements are smaller than a given tolerance. The elements on the diagonal are then approximations of the real eigenvalues of $A$.\\
 
 
-\noindent The algorithm was developed by first creating a matrix $U$ as shown above, letting the matrix size n run from 40 to 400 in 10 steps so that the three lowest eigenvalues produced by a later algorithm would approach 3, 7 and 11.
-The first algorithm/function $(maxoffdiag.cpp)$ finds the maximum values of the upper triangular matrix of U and then located the $k$ and $l$ coordinates. The max value of the upper triangular matrix is returned.
+\noindent The Jacobi eigenvalue method repeats this rotation until the matrix becomes close to diagonal. The elements on the diagonal are then approximations of the real eigenvalues of $A$.
 
-\noindent The Jacobi rotation is defined as a function in our script and is later called upon in the $jacobi.cpp$. In this script, the matrix is rotated by and angle $\theta$ until the maximum value of the upper, and also the lower diagonal, has a lower value than a set tolerance $\epsilon$ of $10^{-8}$. When all the elements of besides the diagonal is less than $\epsilon$, the rotation stops and the number of iterations is printed for the user to see. 
+
+\noindent The algorithm was developed by first creating a matrix $A$ as shown above, letting the matrix size n run from 40 to 400 in 10 steps so that the three lowest eigenvalues produced by a later algorithm would approach 3, 7 and 11 with increasing n.
+The first algorithm/function $(maxoffdiag.cpp)$ finds the maximum values of the upper triangular matrix of $A$ and then located the $k$ and $l$ coordinates. The max value of the upper triangular matrix is returned.
+
+\noindent The Jacobi rotation is defined as a function in our script, $rotate.cpp$, and is later called upon in the $jacobi.cpp$. In this script, the matrix is rotated by and angle $\theta$ until the maximum value of the upper, and also the lower diagonal, has a lower value than a set tolerance $\epsilon$ of $10^{-8}$. When all the elements of besides the diagonal is less than $\epsilon$, the rotation stops and the number of iterations is printed for the user to see. 
 
 \noindent The last script $lowesteigen.cpp$ finds the three lowest eigenvalues with the corresponding eigenvectors. The eigenvalues and eigenvectors were saved as a txt file and implemented into a MatLab script to plot.
 
-\noindent Two tests were implemented using user input. The first one is testing if the rotation matrix R is orthogonal so that $R^{T}R = I$. 
-
-
-\noindent Two tests were implemented using user input. The first one is testing if the rotation matrix R is orthogonal so that $R^{T}R = I$. This was calculated by approximately comparing $R^{T}R$ to I. The second test was comparing the numerically calculated eigenvalues of a matrix S 
-to known eigenvalues. If these are approximately the same, then the test passes.
+\noindent Two tests were implemented using user input. The first one is testing if the rotation matrix R is orthogonal so that $R^{T}R = I$. This was calculated by approximately comparing $R^{T}R$ to I. The second test was comparing the numerically calculated eigenvalues of a matrix S to known eigenvalues. If these are approximately the same, then the test passes.
 
 
 \newpage
@@ -250,6 +249,6 @@ The Jacobi eigenvalue solver we have developed is extremely inefficient. It uses
 \newpage
 \begin{center}
 {\LARGE\bf References}
+\noindent Jensen, M.H. (2015). Computational Physics, Lecture Notes Fall 2015 [Online lecture notes]. Retrieved from https://github.com/CompPhysics/ComputationalPhysics/blob/master/doc/Lectures/lectures2015.pdf
 \end{center}
-Hjort-Jensen,M., 2015. Computational physics, accessible at course github repository. 551 pages
 \end{document}
